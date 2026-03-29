@@ -12,7 +12,7 @@ export default defineConfig({
     proxy: {
       // 这里的代理只在本地 'npm run dev' 时生效
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://localhost:8011',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }

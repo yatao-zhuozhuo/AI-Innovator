@@ -10,9 +10,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  background: #ffffff;
   min-height: 100vh;
   color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 code {
@@ -22,9 +24,8 @@ code {
 
 #root {
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
